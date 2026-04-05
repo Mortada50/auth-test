@@ -1,6 +1,7 @@
 import cors from "cors";
 
 const allowedOrigins = [
+  
   process.env.DOCTOR_DASHBOARD_URL,
   process.env.PHARMACY_DASHBOARD_URL,
   process.env.ADMIN_DASHBOARD_URL,

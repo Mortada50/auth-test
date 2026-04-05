@@ -1,7 +1,7 @@
 import { useAuth } from "@clerk/clerk-react";
 import axios from "axios";
 
-const API_URL =  "http://localhost:3000";
+const API_URL = "https://auth-test-hxk7.onrender.com";
 
 // ── بدون مصادقة (رفع الترخيص قبل التسجيل) ──
 export const publicApi = axios.create({ baseURL: API_URL });

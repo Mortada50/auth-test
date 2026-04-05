@@ -13,6 +13,7 @@ export const generalLimiter = rateLimit({
 });
 
 // ───── Upload Limiter (أقل صرامة للملفات) ─────
+
 export const uploadLimiter = rateLimit({
   windowMs: 60 * 60 * 1000, // ساعة
   max: 20,
